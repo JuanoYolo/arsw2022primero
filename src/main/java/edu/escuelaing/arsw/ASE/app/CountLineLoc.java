@@ -7,7 +7,10 @@ import java.util.Scanner;
 public class CountLineLoc {
     public CountLineLoc(File file) {
     }
-
+    /**
+     * Contar lineas de codigo encontradas sin contar comentarios ni espacios en blanco
+     * @param file
+     */
     public void numeroLineas(File file){
         Scanner scanner = null;
         try {
@@ -15,7 +18,7 @@ public class CountLineLoc {
             int cont = 0;
             while(scanner.hasNextLine()){
                 String line = scanner.nextLine();
-                if(line.contains("//") || line.contains("/*") || line.contains("*") || line.contains("#")){
+                if(line.contains("//") || line.contains("/*") || line.contains("*") || line.contains("#") || line.isEmpty()){
                     cont --;
                 }
                 cont ++;
