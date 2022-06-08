@@ -7,7 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class CountLineTest
+public class CountLinePhyTest
     extends TestCase
 {
     /**
@@ -15,7 +15,7 @@ public class CountLineTest
      *
      * @param testName name of the test case
      */
-    public CountLineTest(String testName )
+    public CountLinePhyTest(String testName )
     {
         super( testName );
     }
@@ -25,7 +25,7 @@ public class CountLineTest
      */
     public static Test suite()
     {
-        return new TestSuite( CountLineTest.class );
+        return new TestSuite( CountLinePhyTest.class );
     }
 
     /**
