@@ -27,3 +27,13 @@ LOC = (35/3H)
 
 **LOC = 12**
 
+### Ejecutar el programa
+```
+java -cp "./target/classes" edu.escuelaing.arsw.ASE.app.Main phy nombredelarchivo.extension
+java -cp "./target/classes" edu.escuelaing.arsw.ASE.app.Main loc nombredelarchivo.extension
+```
+
+### Generar JavaDoc
+```
+mvn javadoc:javadoc
+```
