@@ -4,12 +4,15 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+/**
+ * Clase para contar lineas de codigo sin comentarios ni espacios en blanco
+ */
 public class CountLineLoc {
     public CountLineLoc(File file) {
     }
     /**
      * Contar lineas de codigo encontradas sin contar comentarios ni espacios en blanco
-     * @param file
+     * @param file Archivo a revisar para contar las lineas
      */
     public void numeroLineas(File file){
         Scanner scanner = null;

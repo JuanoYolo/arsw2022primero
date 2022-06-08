@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
- * Clase para contar las lineas
+ * Clase para contar las lineas de codigo completas
  *
  */
 public class CountLinePhy
@@ -15,7 +15,7 @@ public class CountLinePhy
 
     /**
      * Contar lineas de codigo encontradas
-     * @param file
+     * @param file Archivo a revisar para contar las lineas
      */
     public void numeroLineas(File file){
         Scanner scanner = null;
